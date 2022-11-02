@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+
+        </header>
+
+
+        <div class="principal"></div>
+        <nav>
+            <!-- formula para repetir ul>a*9>li-->
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="parrafos.html">
+                    <li>PARRAFOS</li>
+                </a>
+                <a href="enlaces.html">
+                    <li>ENLACES</li>
+                </a>
+                <a href="listas.html">
+                    <li>LISTAS</li>
+                </a>
+                <a href="tablas.html">
+                    <li>TABLAS</li>
+                </a>
+                <a href="formularios.html">
+                    <li>FORMULARIOS</li>
+                </a>
+                <a href="multimedia.html">
+                    <li>MULTIMEDIA</li>
+                </a>
+                <a href="form-html5.html">
+                    <li>FORM-HTML5</li>
+                </a>
+            </ul>
+
+
+        </nav>
+
+        <div id="content">
+            <div id="form">
+                <h1 class="txt-center">FORMULARIOS</h1>
+                <h2>Formulario de login</h2>
+                <fieldset class="iniciosesion">
+                    <h3>Inicia sesión</h3>
+                    <form action="pagina.php" method="post">
+                        <input type="text" name="usuario" id="" placeholder="usuario"><br><br>
+                        <input type="password" name="contraseña" id="" placeholder="contraseña"><br><br>
+                        <input type="submit" value="aceptar">
+                    </form>
+                </fieldset>
+                <h2>Formulario Registro</h2>
+                <fieldset class="registro">
+                    <legend><span class="titulo">Registro</span></legend>
+                    <div class="formulario">
+
+
+
+                        <form action="pagina.php" method="post"><br>
+
+                            <input type="text" name="usuario" id="" placeholder="usuario"><br><br>
+                            <input type="password" name="contraseña" id="" placeholder="contraseña"><br><br>
+
+                            <h3>Aficiones:</h3>
+
+                            <input type="checkbox" name="aficiones" id="" value="comer">Comer<br>
+                            <input type="checkbox" name="aficiones" id="" value="dormir">Dormir<br>
+                            <input type="checkbox" name="aficiones" id="" value="leer">Leer<br>
+                            <input type="checkbox" name="aficiones" id="" value="pasear">Pasear<br>
+
+                            <h3>Sexo: </h3>
+
+                            <input type="radio" name="sexo" id="" value="hombre"> Hombre<br>
+                            <input type="radio" name="sexo" id="" value="mujer"> Mujer<br>
+                            <input type="radio" name="sexo" id="" value="otro"> Otro<br>
+
+                            <br>
+                            <h3>Elija provincia</h3>
+
+                            <select name="provincias" id="">
+                                <option value="Albacete" disabled selected> Provincia</option>
+                                <option value="Albacete"> Albacete</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Toledo">Toledo</option>
+
+                            </select>
+                            <br>
+                            <h3>Elija provincia</h3>
+
+                            <select name="provincias" id="" multiple size="5">
+                                <option value="Albacete" disabled selected> Provincia</option>
+                                <option value="Albacete"> Albacete</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Toledo">Toledo</option>
+
+                            </select>
+                            <br><br>
+                            <input type="submit" value="Aceptar">
+                            <a href="javascript:alert=('hola')"><input type="button" value="Pulse" ></a>
+                        </form>
+                    </div>
+
+                    <div class="coment">
+                        <h3>Deje un comentario</h3>
+                        <form action="pagina.php" method="post">
+                            <textarea name="comentario" id="" cols="100%" rows="20%"
+                                placeholder="Comentario"></textarea> <br>
+                            <input type="submit" value="enviar">
+                        </form>
+
+
+                    </div>
+                </fieldset><br>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <!-- asi se pone un comentario -->
+
+
+
+        <footer>&copy;Alejandro Sosa Fernández-S1DAM</footer>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

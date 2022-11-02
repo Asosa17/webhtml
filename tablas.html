@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+
+        </header>
+
+        <div class="principal"></div>
+        <nav>
+            <!-- formula para repetir ul>a*9>li-->
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="parrafos.html">
+                    <li>PARRAFOS</li>
+                </a>
+                <a href="enlaces.html">
+                    <li>ENLACES</li>
+                </a>
+                <a href="listas.html">
+                    <li>LISTAS</li>
+                </a>
+                <a href="tablas.html">
+                    <li>TABLAS</li>
+                </a>
+                <a href="formularios.html">
+                    <li>FORMULARIOS</li>
+                </a>
+                <a href="multimedia.html">
+                    <li>MULTIMEDIA</li>
+                </a>
+                <a href="form-html5.html">
+                    <li>FORM-HTML5</li>
+                </a>
+            </ul>
+
+
+        </nav>
+
+        <div id="content">
+            <div id="tablas">
+                <h1 class="txt-center">Tablas</h1>
+                <h2> Tabla con encabezado de columnas
+                    <table border="1"class="enca" >
+
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                        <tr>
+                            <td> Programacion</td>
+                            <td>Base de datos</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+                        </tr>
+                        <tr>
+                            <td> Programacion</td>
+                            <td>Base de datos</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+
+                        </tr>
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Fol</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Ingles</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <td>Ingles</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Lenguaje de marcas</td>
+                            <td>Base de datos</td>
+                            <td>Base de datos</td>
+                        </tr>
+                        <tr>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Lenguaje de marcas</td>
+                            <td>Base de datos</td>
+                            <td>Base de datos</td>
+                        </tr>
+                    </table>
+                </h2>
+                <h2> Tabla de encabezado de columna
+                    <table border="1" class="enca">
+                        <tr>
+                            <th>Lunes</th>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+                            <td>Lenguaje de marcas</td>
+                            
+                            <td>Lenguaje de marcas</td>
+                            <td>Ingles</td>
+                            <td>Entrornos de desarrollo</td>
+                        </tr>
+                        <tr>
+                            <th>Martes</th>
+                            <td>Base de datos</td>
+                            <td>Base de datos</td>
+                            <td>Fol</td>
+                            <td>Ingles</td>
+                            <td >Sistemas informaticos</td>
+                            <td >Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <th>Miercoles</th>
+                            <td>Sistemas informaticos</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Fol</td>
+                            <td>Lenguaje de marcas</td>
+                            <td>Lenguaje de marcas</td>
+                        </tr>
+                        <tr>
+                            <th>Jueves</th>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td >Base de datos</td>
+                            <td >Base de datos</td>
+                        </tr>
+                        <tr>
+                            <th>Viernes</th>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Sistemas informaticos</td>
+                            <td >Base de datos</td>
+                            <td >Base de datos</td>
+                        </tr>
+
+                    </table>
+                </h2>
+                <h2> Tabla con combinacion de celdas
+                    <table class="enca" border="1" >
+                        
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" > Programacion</td>
+                            <td rowspan="2">Base de datos</td>
+                            <td rowspan="2">Sistemas informaticos</td>
+                            <td rowspan="2" colspan="2"> Programacion</td>
+                           
+                        </tr>
+                        <tr>   
+                            
+                           
+                            
+                            
+                        
+                        </tr>
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Fol</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">RECREO</td>
+                        </tr>
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Ingles</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <td>Ingles</td>
+                            <td rowspan="2">Sistemas informaticos</td>
+                            <td rowspan="2">Lenguaje de marcas</td>
+                            <td colspan="2" rowspan="2">Base de datos</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Entrornos de desarrollo</td>
+                            
+                            
+                        </tr>
+                    </table>
+                </h2>
+                <h2> Tabla con diferente diseño de filas pares e impares
+                    <table class="striped" border="1">
+                        <caption>Titulo de la tabla usando <span class="tag">&lt;caption&gt;</span></caption>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>Martes</td>
+                            <td>Miercoles</td>
+                            <td>Jueves</td>
+                            <td>Viernes</td>
+                        </tr>
+                        <tr>
+                            <td> Programacion</td>
+                            <td>Base de datos</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+                        </tr>
+                        <tr>
+                            <td> Programacion</td>
+                            <td>Base de datos</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Programacion</td>
+                            <td>Programacion</td>
+
+                        </tr>
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Fol</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <td >RECREO</td>
+                            <td >RECREO</td>
+                            <td >RECREO</td>
+                            <td >RECREO</td>
+                            <td >RECREO</td>
+                        </tr>
+                        <tr>
+                            <td>Lenguaje de marcas</td>
+                            <td>Ingles</td>
+                            <td>Fol</td>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+                            <td>Ingles</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Lenguaje de marcas</td>
+                            <td>Base de datos</td>
+                            <td>Base de datos</td>
+                        </tr>
+                        <tr>
+                            <td>Entrornos de desarrollo</td>
+                            <td>Sistemas informaticos</td>
+                            <td>Lenguaje de marcas</td>
+                            <td>Base de datos</td>
+                            <td>Base de datos</td>
+                        </tr>
+                    </table>
+                </h2>
+                <h2>
+                    <table border="1" class="horario">
+                        <Caption>  <span class="titulos">HORARIO</span></Caption>
+                        <tr>
+                            <th colspan="6"><span class="titulos">S1DAM</span></th>
+
+                        </tr>
+                        <tr>
+                            <th> </th>
+                            <th><span class="titulos">LUNES</span></th>
+                            <th><span class="titulos">MARTES</span></th>
+                            <th><span class="titulos">MIERCOLES</span></th>
+                            <th><span class="titulos">JUEVES</span></th>
+                            <th><span class="titulos">VIERNES</span></th>
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">8:15 <br> 9:10</span></td>
+                            <td class="prog" rowspan="2"> Programacion</td>
+                            <td class="bdd" rowspan="2">Base de datos</td>
+                            <td class="sisi" rowspan="2">Sistemas informaticos</td>
+                            <td class="prog" rowspan="2">Programacion</td>
+                            <td class="prog" rowspan="2">Programacion</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">9:10 <br> 10:05</span></td>
+
+
+
+
+
+                        </tr>
+                        <tr>
+                            <td><span class="titulos">10:05 <br> 11:00</span></td>
+                            <td class="lgdm">Lenguaje de marcas</td>
+                            <td class="fol">Fol</td>
+                            <td class="ende">Entrornos de desarrollo</td>
+                            <td class="fol">Fol</td>
+                            <td class="sisi">Sistemas informaticos</td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">11:00 <br> 11:30</span></td>
+                            <td colspan="5">RECREO</td>
+
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">11:30 <br> 12:25</span></td>
+                            <td class="lgdm">Lenguaje de marcas</td>
+                            <td class="ingles">Ingles</td>
+                            <td class="fol">Fol</td>
+                            <td class="ende">Entrornos de desarrollo</td>
+                            <td class="sisi">Sistemas informaticos</td>
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">12:25 <br> 13:20</span></td>
+                            <td class="ingles">Ingles</td>
+                            <td class="sisi" rowspan="2">Sistemas informaticos</td>
+                            <td class="lgdm" rowspan="2">Lenguaje de marcas</td>
+                            <td class="bdd" rowspan="2">Base de datos</td>
+                            <td class="bdd" rowspan="2">Base de datos</td>
+
+                        </tr>
+                        <tr>
+
+                            <td><span class="titulos">13:20 <br> 14:15</span></td>
+                            <td class="ende">Entrornos de desarrollo</td>
+
+
+
+
+
+                        </tr>
+                    </table>
+                </h2>
+
+
+
+            </div>
+        </div>
+        <div class="cb"></div>
+        <!-- asi se pone un comentario -->
+
+
+
+        <footer>&copy;Alejandro Sosa Fernández-S1DAM</footer>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
